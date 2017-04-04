@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Big J Studios</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="blueberry.css" />
+<style type="text/css">
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body {
+    background: #f2f2f2;
+    font: 14px/20px Calibri, Sans-Serif;
+    color: #555;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 180%;
+    line-height: 120%;
+    padding: 5% 0;
+}
+h2 {
+    text-decoration: underline;
+    line-height: 280%;
+    padding: 2%;
+}
+h3 {
+    line-height: 110%;
+    padding: 5% 0;
+}
+p {
+    padding: 1.5%;
+}
+img {
+    text-align: center;
+    max-width: 100%;
+    /*height: auto;*/
+    /*width: auto;*/
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+header {
+    background: #898586;
+    width: 100%;
+    height: 86px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0.80;
+}
+#logo {
+    margin: 0px;
+    float: left;
+    width: 200px;
+    height: 60;
+    background: url(http://jeremysisson.com/images/jstar.png) no-repeat center;
+}
+nav {
+    float: right;
+    padding: 35px 20px 20px 0;
+}
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(http://jeremysisson.com/images/jstar.png) center;
+}
+#menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+ul {
+    list-style: none;
+}
+nav ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+}
+.current {
+    color: #000000;
+    text-decoration: underline;
+}
+#doc {
+    margin: 40px 0;
+}
+#content {
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-top: 110px:
+}
+.blueberry {
+    max-width: 960px;
+    margin-top: 110px;
+}
+
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.blueberry.js"></script>
+<script>
+$(window).load(function() {
+    $('.blueberry').blueberry();
+});
+</script>
+</head>
+<body>
+    <header>
+        <a href="#" id="logo"></a><img src="http://jeremysisson.com/images/jstar.png" />
+        <nav>
+            <a href="#" id="menu-icon"></a>
+            <ul>
+                <li><a href="Firstwebpage.html" class="current">Home</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+                <li><a href="Contact-us.html">Contact Us</a></li>
+            </ul>  
+        </nav>
+    </header>
+    <div id="doc">
+        <div id="content">
+            <div class="blueberry">
+                <ul class="slides">
+                    <li><img src="http://www.dbs808.com/images/bg_pic1.jpg" alt="mic" height="450" width="800" /></li>
+                    <li><img src="http://societyrebels.com/wp-content/uploads/2013/05/jambox-recording-studio791775548.jpg" alt="studio2" height="450" width="800" /></li>
+                    <li><img src="http://www.thisismetropolis.com/wp-content/uploads/2014/07/studio-c-1-655.png" alt="treble" height="450" width="800" /></li>
+                    <li><img src="http://breweryrecording.com/img/gallery/control-1.jpg" alt="controlroom" height="450" width="800" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section>
+        <img src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=15412629" alt="mixing" height="150" width="150" />
+        <h1>MIXING & MASTERING</h1>
+        <p>At Big J Studios, we have the best engineers in the country who can mix down recorded sessions to a high professional standard. We ensure clean and defined mixes and we also ensure to master your mixes to an industry standard.</p>
+    </section>
+    <section>
+        <img src="http://www.mascenenationale.com/uploads/12-13/3.Spectacles/icone_boisson.jpg" alt="production" height="150" width="150" />
+        <h1>PRODUCTION & COMPOSITION</h1>
+        <p>Our producers here at Big J Studios help to build customer instrumentals, polish exisiting tracks and remixes and also offer a helping hand with songwriting and composition.</p>
+    </section>
+    <section>
+        <img src="http://images.clipartpanda.com/micro-clipart-mic-md.png" alt="recording" height="150" width="150" />
+        <h1>RECORDING & EDITING</h1>
+        <p>Our recording facilities include 2 customer isolated acoustic tracking rooms and premium outboard gear and signal processing to guarantee the ultimate studio recoiding sessions.</p>
+    </section>
+    <div class="schedule"></div>
+    <article>
+        <img src="http://www.clashmusic.com/sites/default/files/styles/article_feature/public/legacy/files/roots-manuva-studio-5.jpeg?itok=_So2rzzZ" alt="scheduling" height="500" width="800" />
+    </article>
+    <aside>
+        <h2>Opening Times</h2>
+        <ul class="record times">
+            <li><h3>Recording Studio: 10am - 8pm</h3></li>
+            <li><h3>Production: 10am - 8pm</h3></li>
+            <li><h3>Composition: 10am - 8pm</h3></li>
+            <li><h3>Mixing & Mastering: 10am - 8pm</h3></li>
+            <li><h3>Editing: 10am - 8pm</h3></li>
+        </ul>    
+    </aside>
+    <div class="views"></div>
+    <section>
+        <h1>Recording Studio</h1>
+        <img src="http://www.kovanis.com/uploads/2/6/7/8/26786052/5899261_orig.jpg" alt="mic" height="250" width="400" />
+        <p>Big J Studios is a fully equipt London recording studio which offers many great facilities such as a control room, vocal booth, drum room and live room. We gurantee you an ideal recording environment solo artist, bands and groups looking to record a demo, single or album.</p>
+    </section>
+    <section>
+        <h1>Control Room</h1>
+        <img src="http://www.residentstudios.com/wp-content/uploads/2014/08/hot-girl-in-a.jpg" alt="artist" height="250" width="400" />
+        <p>Included in our facility is a control room where records are made to make records.</p>
+    </section>
+    <section>
+        <h1>Professional Mixing</h1>
+        <img id = "center" src="http://il2.picdn.net/shutterstock/videos/7611229/thumb/1.jpg" alt="mixing" height="250" width="400" />
+        <p>We will professionally produce your songs and take them to the next level as it is critical to get professional music production for your songs to get radio and internet airplay.</p>
+    </section>
+    <footer>
+        <section>
+            <h3><b>Big J Studios</b></h3>
+            <p><b>0845 9999 555</b><br><br>
+            17 Kensington High Street<br>
+            London,England, W8 6SU<br>
+            enquires@BigJStudios.co.uk</p>
+        </section>
+        <section>
+            <h3>Get Social!</h3>
+            <ul class="networking">
+                <li><a href="#"><img src="https://milocostudios.com/wp-content/themes/miloco/images/social-bar/facebook.png" /></a></li>
+                <li><a href="#"><img src="https://milocostudios.com/wp-content/themes/miloco/images/social-bar/twitter.png" /></a></li>
+                <li><a href="#"><img src="https://milocostudios.com/wp-content/themes/miloco/images/social-bar/youtube.png" /></a></li>
+            </ul>
+        </section>
+        <section>
+            <img src="http://www.afj.org/wp-content/uploads/2013/10/audio_analysis.png" height="100" width="100"/>
+        </section>
+    <footer class="copyright">
+        <p>©Copyright - Big J Studios, 2016</p>
+    </footer>
+            
+            
+            
+   
+    
+</body>
+</html>
